@@ -1,0 +1,35 @@
+.persona{
+    display:flex;
+    flex-direction: column;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem; /*16px*/
+
+}
+
+@media screen and (min-width: 0) { /* Pantalla Movil*/
+    .persona{
+        margin-bottom: 2rem;
+}
+}
+
+@media screen and (min-width: 768px) { /* Pantalla Tablet*/
+    .persona{
+        margin-bottom: 0;
+}
+    }  
+
+    @media screen and (min-width: 0) { /* Pantalla Movil*/
+        .personas{
+            flex-direction: column; /* Se mostrara de forma de columna "vertical" hacia abajo para pantallas de 0 a 768 px*/
+    }
+    }
+    
+    @media screen and (min-width: 768px) { /* Pantalla Tablet*/
+        .personas{
+            flex-direction: row; /* Se mostrara de forma de fila "horizontal" hacia al lado para pantallas de 768 px en adelnate*/
+    }
+        }  

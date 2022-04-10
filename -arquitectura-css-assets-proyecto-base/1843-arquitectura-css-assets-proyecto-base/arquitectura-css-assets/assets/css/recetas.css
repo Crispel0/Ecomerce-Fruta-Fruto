@@ -1,0 +1,24 @@
+.recetas{
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap; /*Modifica el flex de la caja si toma mas espacio del que necesita*/
+}
+
+@media screen and (min-width: 0) { /* Pantalla Movil*/
+    .recetas{
+        padding: 5rem 0 0 1rem;
+}
+}
+
+@media screen and (min-width: 768px) { /* Pantalla Tablet*/
+    .recetas{
+        padding: 5rem 0 0 2.5rem;
+}
+    }  
+}
+@media screen and (min-width: 922px) { /* Pantallas Desktop*/
+    .recetas{
+        padding: 5rem 0 0 5rem;
+    }
+}
+}

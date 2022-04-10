@@ -1,0 +1,7 @@
+.menu__itemn {
+    list-style: none; /*Quita item de la lista*/
+}
+
+.menu__itemn:last-child .menu__link {
+    margin-right:0;
+}
